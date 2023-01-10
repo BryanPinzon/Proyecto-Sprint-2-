@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #181818;
+}
+
+a{
+    text-decoration: none;
+    color:#5a5a5a;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    height: 80px;
+}
+.search__logo{
+    width: 48px;
+    height: 30px;
+    position: relative;
+    left: 79px;
+    top: 3px;
+
+}
+.nav__logo{
+    margin-top: 10px;
+    height: 45px;
+    width: 50px;
+
+}
+.title_app{
+    font-family: 'Bakbak One', cursive;
+    font-size: 30px;
+    color: white;
+
+}
+.input__nav{
+    position: relative;
+    width: 350px;
+    height: 32px;
+    left: 80px;
+    border-radius: 5px;
+    border: 1px solid #6F6F6F;
+    background-color: #181818;
+
+}
+
+.input__nav::placeholder{
+    color: #6F6F6F;
+    
+}
+
+
+.container__reproductor{
+
+    display: grid;
+    grid-template-columns:repeat(2 60% 40%);
+}
+.section__reproductor{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.video__iframe{
+    width: 1080px;
+    height: 720px;
+}
+
+
+img{
+    width: 280px;
+
+}
+.section__reproductor3{
+    margin-bottom: -20px;
+    height: 200px;
+    width: 300px;
+
+}
+.section__reproductor2{
+    width: 300px;
+    position: relative;
+    left: 1150px;
+    bottom: 800px;
+
+
+
+}
+.section__information{
+
+    position: relative;
+    left: 290px;
+    bottom: 168px; 
+    /* background-color: blue;  */
+}
+.info__channel{
+    margin-top: 10px;
+}
+.title__video{
+    color: #fff;
+}
+
+.info__channel,.info__views,.info__video{
+    
+    color: #6F6F6F;
+}
+/* .title__video{
+    font-size: 16px;
+} */
+h2{
+    color: #fff;
+    position: relative;
+    /* left: 1150px;
+    bottom: 800px; */
+    margin-bottom: 15px;
+}
+
+.subtitle__sugeridos{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -810px;
+    right: 380px;
+}

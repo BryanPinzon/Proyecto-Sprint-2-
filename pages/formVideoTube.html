@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styleForm.css">
+    <title>Agrega VideoTube</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <figure>
+                <img class="nav__logo" src="../images/logo.png" alt="logoVideoTube">
+            </figure>
+            <a href="../index.html"><p class="title_app">VideoTube</p></a>
+        </nav>
+        </header>
+        <h1 class="title">Agregar nuevo VideoTube</h1>
+        <h2 class="subtitle"><a href="../index.html">Regresar a VideoTube</a></h2>
+        <form class="form">
+            <label for="img">URL imagen del Video</label>
+            <input id='img' type="url">
+            <label for="title">Titulo del Video</label>
+            <input id='title' type="text">
+            <label for="channel">Nombre canal</label>
+            <input id='channel' type="text">
+            <label for="views">Numero de vistas y fecha de publicacion</label>
+            <input id='views' type="text">
+            <label for="category">Categoria de VideoTube</label>
+            <select name="" id="category">
+                <option value="">Selecione una opción</option>
+                <option value="musica">musica</option>
+                <option value="programacion">programacion</option>
+                <option value="desing">desing</option>
+            </select>
+            <label for="video">Introduzca URL del iframe.</label>
+            <input id='video' type="url">
+            <button type="submit">Enviar</button>
+        </form>
+    <script src="../scripts/addVideos.js" type="module"></script>
+    <script src="../scripts/functVideos.js"type="module"></script>
+    
+
+</body>
+</html>
